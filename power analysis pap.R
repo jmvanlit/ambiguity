@@ -38,8 +38,8 @@ DemoJudges_multiple_designs <-
   DemoJudges_design |> 
   redesign(b = c(0.1, 0.15, 0.2, 0.3), # vary effect size
            N = seq(from = 3000, # vary number of respondents
-                   to = 90000,
-                   by = 5000),
+                   to = 9000,
+                   by = 500),
            n_cond = c(2, 3, 6, 12)) # vary number of conditions to be compared
 
 ### Diagnose
